@@ -5,8 +5,16 @@ for (var rows1=1; rows1<=5; rows1++){
 
 
 // TUGAS 2
-for (var rows2=1; rows2<=5; rows2++){
-    console.log('*****')
+var rows2=1
+var column=1
+var rptstring=""
+
+while (rows2<=5){
+    while (column<=5){
+        rptstring += "*"
+        column++}
+    console.log (rptstring)
+    rows2++;
 }
 
 
