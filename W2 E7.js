@@ -27,4 +27,3 @@ while (rows3<=5){
     console.log (repeatstring)
     rows3++;
 }
-return repeatstring;
